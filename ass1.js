@@ -14,3 +14,21 @@ const result=range(100,200);
 console.log(result);
 
 //2. Create a function check if a number is palindrome
+
+    
+    let n=1221;
+    let rem;
+    let rev=0;
+    let temp=n;
+    while(n!=0){
+        
+        rem=n%10;
+        rev=(rev*10)+rem;
+        n=parseInt(n/10);
+    }
+
+    if(temp==rev){
+        
+        console.log("pallindrome");
+    }
+    
