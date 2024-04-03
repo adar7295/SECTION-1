@@ -13,3 +13,7 @@ console.log(newArr);
 const names=['raji','shamu','pinki','ramu','kaliya'];
 const newArr1=names.map( (x)=> { return x.toUpperCase()});
 console.log(newArr1);
+
+const lower =['ADARSH','ABHAY','ARPIT','SHAURYA','AVIJJEET','VIKAS','PRABAL','ABHISHEK'];
+const newArr2=lower.map( (b) => { return b.toLowerCase()});
+console.log(newArr2);
